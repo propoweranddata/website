@@ -1,154 +1,293 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <title>Pro Power and Data</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a responsive product landing page.">
-    <title>Landing Page &ndash; Layout Examples &ndash; Pure</title>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
-        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-    <div class="header">
-        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-            <a class="pure-menu-heading" href="">Pro Power & Data</a>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">
+                    <img src="./images/logo.jpg" alt="Pro Power & Data logo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-            <ul class="pure-menu-list">
-                <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-                <li class="pure-menu-item"><a href="./about" class="pure-menu-link">About Us</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Gallery</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
-            </ul>
+    <div class="jumbotron text-center">
+        <img class="responsive-image" src="./images/bg.jpg" alt="Pro Power and Data">
+    </div>
+
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-flash logo slideanim"></span>
+            </div>
+            <div class="col-sm-8">
+                <h4>At Pro Power and Data, we provide a team of trained and educated professionals to deliver excellent
+                    craftsmanship for
+                    all your electrical needs. We pride ourselves in quality, value, reliability and exceptional
+                    customer
+                    satisfaction.</h4><br>
+                <br>
+                <a href="#contact" class="btn btn-default btn-lg" role="button">Get in Touch</a>
+
+            </div>
         </div>
     </div>
 
-    <div class="splash-container">
-        <div class="splash">
-            <h1 class="splash-head">Big Bold Text</h1>
-            <p class="splash-subhead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <p>
-                <a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a>
-            </p>
+    <!-- Container (Services Section) -->
+    <div id="services" class="container-fluid text-center bg-grey">
+        <h2>SERVICES</h2>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off logo-small"></span>
+                <h4>POWER</h4>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench logo-small"></span>
+                <h4>HARD WORK</h4>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <h4>JOB DONE</h4>
+            </div>
+        </div>
+        <br><br>
+        <div class="row slideanim">
+            <div class="col-sm-6 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Residential</h1>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Electrical Troubleshooting, Inspections and Repairs</li>
+                            <li>Electrical Vehicle Charger Installation</li>
+                            <li>Lights and Ceiling Fan Installations</li>
+                            <li>New Construction</li>
+                            <li>Panel upgrades</li>
+                            <li>Rewiring</li>
+                            <li>Ring and security Cameras Installation</li>
+                            <li>Much more...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Commercial</h1>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Control work</li>
+                            <li>Equipment troubleshooting, inspections and repairs</li>
+                            <li>Installation of electrical equipment and raceways</li>
+                            <li>Larger scale building projects</li>
+                            <li>Lighting, new and retrofit installations</li>
+                            <li>Office remodels</li>
+                            <li>Much more...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="content-wrapper">
-        <div class="content">
-            <h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2>
-
-            <div class="pure-g">
-                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-
-                    <h3 class="content-subhead">
-                        <i class="fa fa-rocket"></i>
-                        Get Started Quickly
-                    </h3>
-                    <p>
-                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
+    <!-- Container (Gallery Section) -->
+    <div id="gallery" class="container-fluid text-center">
+        <h2>Gallery</h2><br>
+        <div class="row text-center slideanim">
+            <!-- Photo Grid -->
+            <div class="row">
+                <div class="column">
+                    <img src="./images/gallery/1.jpeg" style="width:100%">
+                    <img src="./images/gallery/2.jpeg" style="width:100%">
+                    <img src="./images/gallery/3.jpeg" style="width:100%">
+                    <img src="./images/gallery/4.jpeg" style="width:100%">
+                    <img src="./images/gallery/5.jpeg" style="width:100%">
+                    <img src="./images/gallery/6.jpeg" style="width:100%">
+                    <img src="./images/gallery/7.jpeg" style="width:100%">
+                    <img src="./images/gallery/8.jpeg" style="width:100%">
+                    <img src="./images/gallery/9.jpeg" style="width:100%">
                 </div>
-                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                    <h3 class="content-subhead">
-                        <i class="fa fa-mobile"></i>
-                        Responsive Layouts
-                    </h3>
-                    <p>
-                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
+                <div class="column">
+                    <img src="./images/gallery/10.jpeg" style="width:100%">
+                    <img src="./images/gallery/11.jpeg" style="width:100%">
+                    <img src="./images/gallery/12.jpeg" style="width:100%">
+                    <img src="./images/gallery/13.jpeg" style="width:100%">
+                    <img src="./images/gallery/14.jpeg" style="width:100%">
+                    <img src="./images/gallery/15.jpeg" style="width:100%">
+                    <img src="./images/gallery/16.jpeg" style="width:100%">
+                    <img src="./images/gallery/17.jpeg" style="width:100%">
+                    <img src="./images/gallery/18.jpeg" style="width:100%">
                 </div>
-                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                    <h3 class="content-subhead">
-                        <i class="fa fa-th-large"></i>
-                        Modular
-                    </h3>
-                    <p>
-                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
+                <div class="column">
+                    <img src="./images/gallery/19.jpeg" style="width:100%">
+                    <img src="./images/gallery/20.jpeg" style="width:100%">
+                    <img src="./images/gallery/21.jpeg" style="width:100%">
+                    <img src="./images/gallery/22.jpeg" style="width:100%">
+                    <img src="./images/gallery/23.jpeg" style="width:100%">
+                    <img src="./images/gallery/24.jpeg" style="width:100%">
+                    <img src="./images/gallery/25.jpeg" style="width:100%">
+                    <img src="./images/gallery/26.jpeg" style="width:100%">
                 </div>
-                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                    <h3 class="content-subhead">
-                        <i class="fa fa-check-square-o"></i>
-                        Plays Nice
-                    </h3>
-                    <p>
-                        Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
+                <div class="column">
+                    <img src="./images/gallery/27.jpeg" style="width:100%">
+                    <img src="./images/gallery/28.jpeg" style="width:100%">
+                    <img src="./images/gallery/29.jpeg" style="width:100%">
+                    <img src="./images/gallery/30.jpeg" style="width:100%">
+                    <img src="./images/gallery/31.jpeg" style="width:100%">
+                    <img src="./images/gallery/32.jpeg" style="width:100%">
+                    <img src="./images/gallery/33.jpeg" style="width:100%">
+                    <img src="./images/gallery/34.jpeg" style="width:100%">
+                    <img src="./images/gallery/35.jpeg" style="width:100%">
+                    <img src="./images/gallery/36.jpeg" style="width:100%">
+                </div>
+                <div class="column">
                 </div>
             </div>
         </div>
-
-        <div class="ribbon l-box-lrg pure-g">
-            <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-                <img width="300" alt="File Icons" class="pure-img-responsive" src="/img/common/file-icons.png">
-            </div>
-            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-
-                <h2 class="content-head content-head-ribbon">Laboris nisi ut aliquip.</h2>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor.
-                </p>
-            </div>
-        </div>
-
-        <div class="content">
-            <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
-
-            <div class="pure-g">
-                <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                    <form class="pure-form pure-form-stacked">
-                        <fieldset>
-
-                            <label for="name">Your Name</label>
-                            <input id="name" type="text" placeholder="Your Name">
-
-
-                            <label for="email">Your Email</label>
-                            <input id="email" type="email" placeholder="Your Email">
-
-                            <label for="password">Your Password</label>
-                            <input id="password" type="password" placeholder="Your Password">
-
-                            <button type="submit" class="pure-button">Sign Up</button>
-                        </fieldset>
-                    </form>
-                </div>
-
-                <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                    <h4>Contact Us</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
-
-                    <h4>More Information</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- <div class="footer l-box is-center">
-            View the source of this layout to learn more. Made with love by the Pure Team.
-        </div> -->
-
     </div>
 
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid bg-grey">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you as soon as possible.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Fontana, CA</p>
+                <p><span class="glyphicon glyphicon-phone"></span> (909) 301-3210</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> contact@ProPowerandData.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <form action="https://formspree.io/f/manwnlna" method="POST">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                                required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+                        rows="5"></textarea><br>
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <a href="#home" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>© 2024 Pro Power and Data</p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#home']").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function () {
+                $(".slideanim").each(function () {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+
+    <!-- Formspree -->
+    <script>
+        var form = document.getElementById("contact-form");
+        var errorMessage = "Oops! There was a problem submitting your form. Please email us at contact@ProPowerandData.com";
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("contact-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    status.innerHTML = "Thanks for your submission!";
+                    form.reset()
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                            status.innerHTML = errorMessage;
+                        }
+                    })
+                }
+            }).catch(error => {
+                status.innerHTML = errorMessage;
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
 </body>
 
 </html>
