@@ -152,10 +152,13 @@ h4 {
     border-bottom: 1px solid #f6f6f6;
 }
 
+.navbar-header>a {
+    padding: 4px 25px;
+}
+
 .navbar li a,
 .navbar .navbar-brand {
     color: #303d4b !important;
-    padding: 4px 25px;
 
     img {
         border-radius: 50%;
@@ -166,8 +169,8 @@ h4 {
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-    color: #303d4b !important;
-    background-color: #fff !important;
+    color: #fff !important;
+    background-color: #303d4b !important;
 }
 
 .navbar-default .navbar-toggle {
