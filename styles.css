@@ -1,7 +1,7 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #595959;
 }
 
 h2 {
@@ -12,7 +12,14 @@ h2 {
     margin-bottom: 30px;
 }
 
-h4 {
+h3 {
+    font-size: 22px;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4, .about-text {
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
@@ -129,7 +136,7 @@ h4 {
 }
 
 .panel-footer h4 {
-    color: #aaa;
+    color: #767676;
     font-size: 14px;
 }
 
