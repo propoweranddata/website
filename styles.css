@@ -21,7 +21,7 @@ h3 {
 h4, .about-text {
     font-size: 19px;
     line-height: 1.375em;
-    color: #303030;
+    color: #333333;
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -41,6 +41,7 @@ h4, .about-text {
 
 .panel-body {
     text-align: left;
+    color: #222222 !important;
 }
 
 .container-fluid {
