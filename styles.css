@@ -190,6 +190,11 @@ footer .glyphicon {
     color: #303d4b;
 }
 
+footer p a {
+    color: #303d4b;
+    text-decoration: underline;
+}
+
 .slideanim {
     visibility: hidden;
 }
