@@ -29,6 +29,9 @@
     </head>
 
     <body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
+        <h1 class="sr-only">
+            Pro Power and Data Inc - Electrical Contracting Services
+        </h1>
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -37,6 +40,7 @@
                         class="navbar-toggle"
                         data-toggle="collapse"
                         data-target="#myNavbar"
+                        aria-label="Toggle navigation"
                     >
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -60,6 +64,7 @@
         </nav>
 
         <div class="jumbotron text-center">
+            <!-- <h1>Pro Power and Data</h1> -->
             <img
                 class="responsive-image"
                 src="./images/bg.jpg"
@@ -260,7 +265,9 @@
                         <input
                             type="text"
                             name="_gotcha"
-                            style="display: none"
+                            style="display: none !important"
+                            aria-hidden="true"
+                            tabindex="-1"
                         />
                         <div class="row">
                             <div class="col-sm-12 form-group">
